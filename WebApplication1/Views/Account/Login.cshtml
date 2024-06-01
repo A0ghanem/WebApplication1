@@ -1,0 +1,18 @@
+﻿@model WebApplication1.Models.users
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Login Page</h2>
+
+@using (@Html.BeginForm("Login", "Account", FormMethod.Post))
+{
+
+
+    <button type="submit">Save</button>
+
+
+
+}
+
